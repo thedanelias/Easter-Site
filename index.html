@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Find Easter in any given year</title>
+        <link rel="stylesheet" type="text/css" href="./stylesheet.css">
+    </head>
+    <body>
+        <div class="explanation">
+            <h1>Explanation</h1>
+            <p>
+                Welcome, this form allows you to find the day and month Easter falls on in any given year&excl;<br/>
+                All you have to do is enter the year below, and choose the format you wish for the date to be presented.
+            </p>
+        </div>
+        <div class="inputfield">
+            <form action="cgi-bin/FindEaster.py" target="_blank" method="post">
+                <h2>Easter Calculator</h2>
+                <label for="year">Year:</label> <br/> 
+                <input type="number" min="1" value="2021" required id="year" name="year"><br/>
+                <label for="format" id="labelformat">How would you like the date to be presented?</label><br/>
+                <input type="radio" name="format" id="numerical" value="numerical" checked="checked">Numerically (for example: 17/04/2022)<br/>
+                <input type="radio" name="format" id="verbose" value="verbose">Verbosely (for example: 17<sup>th</sup> April 2022)<br/>
+                <input type="radio" name="format" id="both" value="both">Numerically and Verbosely (for example: 17/04/2022 and 17<sup>th</sup> April 2022)<br/>
+                <input type="submit" name="submit" id="submit" value="Submit">
+                <input type="reset" name="clear" id="clear" value="Clear">
+            </form>
+        </div>
+    </body>
+</html>

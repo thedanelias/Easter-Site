@@ -1,0 +1,86 @@
+.explanation {
+    margin: auto;
+    width: 30%;
+}
+
+.explanation > h1 {
+    text-align: center;
+    font-size: 35pt;
+}
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+    color: palevioletred
+}
+
+.explanation > p {
+    font-size: 18pt;
+    border: 2px dotted rgb(212, 127, 0);
+    border-radius: 5px;
+}
+
+.inputfield h2 {
+    font-size: 25pt;
+    padding-left: 5px;
+    margin: 0;
+}
+
+.inputfield {
+    margin: auto;
+    width: 35%;
+    border: 2px solid black;
+}
+
+.inputfield label {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 14pt;
+}
+
+#year {
+    margin-left: 10px;
+    background-color: white ;
+    font-size: 13pt;
+}
+
+#numerical {
+    margin-left: 10px;
+    font-size: 13pt;
+}
+
+#verbose {
+    margin-left: 10px;
+    font-size: 13pt;
+}
+
+#both {
+    margin-left: 10px;
+    font-size: 13pt;
+    margin-bottom: 10px;
+}
+
+#submit {
+    background-color: white;
+    margin-left: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+#clear {
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.inputfield p {
+    font-size: 13pt;
+}
+
+#labelformat {
+    padding-bottom: 5px;
+}
